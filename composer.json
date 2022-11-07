@@ -1,0 +1,8 @@
+{
+  "name": "sickdaflip/mage_solute_connect",
+  "description": "Solute.de Billiger.de Connect Magento Extension",
+  "type": "magento-module",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
+}

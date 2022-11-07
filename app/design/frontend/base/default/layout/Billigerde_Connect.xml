@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <checkout_onepage_success>
+        <reference name="content">
+            <block type="billigerde_connect/frontend_checkout_success_tracking" name="checkout.success.tracking" template="billigerde_connect/checkout/success/tracking.phtml"/>
+        </reference>
+    </checkout_onepage_success>
+</layout>

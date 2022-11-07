@@ -1,0 +1,36 @@
+"admin_billigerde_connect_setting", "Billigerde Connect"
+"admin_billigerde_connect_export_profile_config", "Profile Settings"
+"admin_billigerde_connect_export_profile_filter", "Profile Filter"
+"admin_billigerde_connect_export_collection_page_size", "Collection Page Size"
+
+"admin_billigerde_connect_solutede_tab", "Solutede"
+"admin_billigerde_connect_export", "Export Settings"
+"admin_billigerde_connect_export_csv_delimiter", "Csv Delimiter"
+"admin_billigerde_connect_export_csv_enclosure", "Csv Enclosure"
+"admin_billigerde_connect_export_csv_file_name", "Csv File Name"
+"admin_billigerde_connect_export_csv_file_path", "Csv File Path"
+"admin_billigerde_connect_export_is_active", "Enabled"
+"admin_billigerde_connect_export_do_debug", "Debugging"
+
+"admin_billigerde_connect_export_collection_page_size", "Collection Page Size"
+"admin_billigerde_connect_export_filter_visibility", "Visibility Filter"
+"admin_billigerde_connect_export_filter_category_include", "CategoryFilter Include"
+"admin_billigerde_connect_export_filter_category_exclude", "CategoryFilter Exclude"
+"admin_billigerde_connect_export_filter_include_disabled_products", "Include Disabled Products"
+"admin_billigerde_connect_export_filter_include_not_in_stock_products", "Include NotInStockProducts"
+
+"admin_billigerde_connect_sales_tracking_method", "Methode"
+"admin_billigerde_connect_sales_tracking", "Tracking"
+
+"source_label_none", "deactivated"
+"source_label_include_order_items", "tracking with articles"
+"source_label_exclude_order_items", "tracking without articles"
+
+"admin_billigerde_connect_general", "General"
+"admin_billigerde_connect_general_shop_id", "Shop Id"
+
+"no_debug","No"
+"flow_debug","WorkFlow"
+"data_debug","Data"
+"data_map_debug","DataMapping"
+"full_debug","Full"

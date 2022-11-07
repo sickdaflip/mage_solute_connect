@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <tabs>
+        <solutede translate="label" module="billigerde_connect">
+            <label>admin_billigerde_connect_solutede_tab</label>
+            <sort_order>1</sort_order>
+        </solutede>
+    </tabs>
+
+    <sections>
+        <billigerde_connect_setting translate="label" module="checkout">
+            <tab>solutede</tab>
+            <label>admin_billigerde_connect_setting</label>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label">
+                    <label>admin_billigerde_connect_general</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                       <shop_id translate='label'>
+                           <label>admin_billigerde_connect_general_shop_id</label>
+                           <sort_order>5</sort_order>
+                           <frontend_type>text</frontend_type>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </shop_id>
+    				</fields>
+				</general>                       
+                
+                <sales_tracking>
+                    <label>admin_billigerde_connect_sales_tracking</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                       <method translate='label'>
+                           <label>admin_billigerde_connect_sales_tracking_method</label>
+                           <sort_order>5</sort_order>
+                           <frontend_type>select</frontend_type>
+                           <source_model>billigerde_connect/adminhtml_system_config_source_salestracking_method</source_model>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </method>
+                    </fields>
+                </sales_tracking>
+                       
+                <export translate="label">
+                    <label>admin_billigerde_connect_export</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                       <is_active translate='label'>
+                           <label>admin_billigerde_connect_export_is_active</label>
+                           <sort_order>5</sort_order>
+                           <frontend_type>select</frontend_type>
+                           <source_model>adminhtml/system_config_source_yesno</source_model>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </is_active>
+
+                       <do_debug translate='label'>
+                           <label>admin_billigerde_connect_export_do_debug</label>
+                           <sort_order>6</sort_order>
+                           <frontend_type>select</frontend_type>
+                           <source_model>billigerde_connect/system_config_profile_debug</source_model>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </do_debug>
+                    
+                       <csv_delimiter translate='label'>
+                           <label>admin_billigerde_connect_export_csv_delimiter</label>
+                           <sort_order>10</sort_order>
+                           <frontend_type>text</frontend_type>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </csv_delimiter>
+
+                       <csv_enclosure translate='label'>
+                           <label>admin_billigerde_connect_export_csv_enclosure</label>
+                           <sort_order>20</sort_order>
+                           <frontend_type>text</frontend_type>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </csv_enclosure>
+
+                       <csv_file_name translate='label'>
+                           <label>admin_billigerde_connect_export_csv_file_name</label>
+                           <sort_order>30</sort_order>
+                           <frontend_type>text</frontend_type>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </csv_file_name>
+
+                       <csv_file_path translate='label'>
+                           <label>admin_billigerde_connect_export_csv_file_path</label>
+                           <sort_order>40</sort_order>
+                           <frontend_type>text</frontend_type>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </csv_file_path>
+
+                       <collection_page_size translate='label'>
+                           <label>admin_billigerde_connect_export_collection_page_size</label>
+                           <sort_order>50</sort_order>
+                           <frontend_type>text</frontend_type>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </collection_page_size>
+                       
+                       <category_filter_include translate='label'>
+                           <label>admin_billigerde_connect_export_filter_category_include</label>
+                           <source_model>billigerde_connect/adminhtml_system_config_source_export_field_filter_category</source_model>
+                           <frontend_type>multiselect</frontend_type>
+                           <sort_order>70</sort_order>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                           <can_be_empty>1</can_be_empty>
+                       </category_filter_include>
+
+                       <category_filter_exclude translate='label'>
+                           <label>admin_billigerde_connect_export_filter_category_exclude</label>
+                           <source_model>billigerde_connect/adminhtml_system_config_source_export_field_filter_category</source_model>
+                           <frontend_type>multiselect</frontend_type>
+                           <sort_order>70</sort_order>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                           <can_be_empty>1</can_be_empty>
+                       </category_filter_exclude>
+
+                       <visibility_filter translate='label'>
+                           <label>admin_billigerde_connect_export_filter_visibility</label>
+                           <source_model>billigerde_connect/adminhtml_system_config_source_export_field_filter_visibility</source_model>
+                           <frontend_type>multiselect</frontend_type>
+                           <sort_order>70</sort_order>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                           <can_be_empty>1</can_be_empty>
+                       </visibility_filter>
+                       
+                       <include_disabled_products translate='label'>
+                           <label>admin_billigerde_connect_export_filter_include_disabled_products</label>
+                           <source_model>adminhtml/system_config_source_yesno</source_model>
+                           <frontend_type>select</frontend_type>
+                           <sort_order>70</sort_order>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </include_disabled_products>
+
+                       <include_not_in_stock_products translate='label'>
+                           <label>admin_billigerde_connect_export_filter_include_not_in_stock_products</label>
+                           <source_model>adminhtml/system_config_source_yesno</source_model>
+                           <frontend_type>select</frontend_type>
+                           <sort_order>70</sort_order>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </include_not_in_stock_products>
+
+                       <profile_config translate='label'>
+                           <label>admin_billigerde_connect_export_profile_config</label>
+                           <frontend_model>billigerde_connect/adminhtml_system_config_form_field_export_profile_config</frontend_model>
+                           <backend_model>billigerde_connect/adminhtml_system_config_backend_export_profile_config</backend_model>
+                           <sort_order>70</sort_order>
+                           <show_in_default>1</show_in_default>
+                           <show_in_website>1</show_in_website>
+                           <show_in_store>1</show_in_store>
+                       </profile_config>
+                   </fields>
+                </export>
+            </groups>
+        </billigerde_connect_setting>
+    </sections>  
+</config>

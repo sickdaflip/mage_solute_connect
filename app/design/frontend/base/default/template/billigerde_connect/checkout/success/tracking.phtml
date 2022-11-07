@@ -1,0 +1,8 @@
+<?php
+/** @var $this Billigerde_Connect_Block_Frontend_Checkout_Success_Tracking */
+
+?>
+
+<?php if ($this->isTrackingEnabled()) : ?>
+	<img src="<?php echo $this->getTrackingUrl()?>" width="1" height="1" border="0" alt="" />
+<?php endif;?>

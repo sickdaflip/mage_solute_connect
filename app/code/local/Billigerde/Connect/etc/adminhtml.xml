@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<config>
+	
+	<acl>
+	    <resources>
+	        <admin>
+	            <children>
+	                <system>
+	                    <children>
+	                        <config>
+	                            <children>
+	                                <billigerde_connect_setting translate="title" module="billigerde_connect">
+	                                    <title>admin_billigerde_connect_setting</title>
+	                                </billigerde_connect_setting>
+	                            </children>
+	                        </config>
+	                    </children>
+	                </system>
+	            </children>
+	        </admin>
+	    </resources>
+	</acl>
+</config>

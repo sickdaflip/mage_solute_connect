@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Billigerde_Connect>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Billigerde_Connect>
+    </modules>
+</config>

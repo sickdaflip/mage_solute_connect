@@ -1,0 +1,7 @@
+app/etc/modules/*.xml   app/etc/modules/
+app/code/local/Billigerde/Connect/  app/code/local/Billigerde/Connect/
+app/locale/de_DE/Billigerde_Connect.csv app/locale/de_DE/Billigerde_Connect.csv
+app/locale/en_US/Billigerde_Connect.csv app/locale/en_US/Billigerde_Connect.csv
+app/design/adminhtml/default/default/template/billigerde_connect    app/design/adminhtml/default/default/template/billigerde_connect
+app/design/frontend/base/default/layout/Billigerde_Connect.xml  app/design/frontend/base/default/layout/Billigerde_Connect.xml
+app/design/frontend/base/default/template/billigerde_connect    app/design/frontend/base/default/template/billigerde_connect
